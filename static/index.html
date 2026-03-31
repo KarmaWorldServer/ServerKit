@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KarmaWorld Server Kit</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-box">
+        <div class="brand-icon">K</div>
+        <div>
+          <div class="brand-title">KarmaWorld</div>
+          <div class="brand-subtitle">Server Kit</div>
+        </div>
+      </div>
+      <nav class="menu" id="menu"></nav>
+      <div class="sidebar-footer" id="sidebarFooter"></div>
+    </aside>
+
+    <main class="main-area">
+      <header class="hero card">
+        <div>
+          <div class="eyebrow" id="eyebrow">PANEL ESTILO SERVER KIT</div>
+          <h1 id="heroTitle">KarmaWorld</h1>
+          <p id="heroSubtitle">Panel local funcional con arranque real, parada por proceso y edición ordenada del serverconfig.</p>
+        </div>
+        <div class="hero-right">
+          <div class="lang-switch-wrap">
+            <span id="langLabel">Idioma</span>
+            <div class="lang-switch">
+              <button class="small-btn" id="langEsBtn" onclick="setLanguage('es')">ES</button>
+              <button class="small-btn" id="langEnBtn" onclick="setLanguage('en')">EN</button>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="btnStartTop" onclick="serverAction('start')">Iniciar</button>
+            <button class="btn" id="btnRestartTop" onclick="serverAction('restart')">Reiniciar</button>
+            <button class="btn btn-danger" id="btnStopTop" onclick="serverAction('stop')">Parar</button>
+                        <button class="btn" id="btnManualRefreshTop" type="button" onclick="return refreshNow(event)">Actualizar ahora</button>
+            <button class="btn btn-warning" id="btnStopManagerTop" onclick="stopManager()">Parar manager</button>
+          </div>
+        </div>
+      </header>
+
+      <div id="topStatusBar" class="top-status-wrap"></div>
+      <section id="view"></section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js?v=44"></script>
+  <script src="/patch-v37.js?v=44"></script>
+</body>
+</html>

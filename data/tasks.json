@@ -1,0 +1,24 @@
+[
+  {
+    "id": "restart_daily",
+    "name": "Reinicio diario",
+    "type": "restart",
+    "cron": "0 6 * * *",
+    "command": "",
+    "active": false,
+    "time_hour": 6,
+    "time_minute": 0,
+    "repeat_mode": "daily"
+  },
+  {
+    "id": "backup_daily",
+    "name": "Backup diario",
+    "type": "backup",
+    "cron": "30 5 * * *",
+    "command": "",
+    "active": false,
+    "time_hour": 5,
+    "time_minute": 30,
+    "repeat_mode": "daily"
+  }
+]

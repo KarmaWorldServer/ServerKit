@@ -1,0 +1,28 @@
+[
+  {
+    "id": "admin_1",
+    "username": "change_this_admin",
+    "password": "change_this_password",
+    "enabled": false,
+    "is_admin": true,
+    "sections": [
+      "dashboard",
+      "server",
+      "console",
+      "players",
+      "inventory",
+      "backups",
+      "tasks",
+      "serverconfig",
+      "settings",
+      "notifications",
+      "helpdocs",
+      "access"
+    ],
+    "actions": [
+      "*"
+    ],
+    "_note_es": "Edita este archivo a mano para crear el primer acceso del panel. Pon enabled=true y cambia usuario/contraseña.",
+    "_note_en": "Edit this file manually to create the first panel login. Set enabled=true and change username/password."
+  }
+]

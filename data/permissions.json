@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Fundador",
+    "level": 10,
+    "commands": "all",
+    "emoji": "👑",
+    "color": "#f7c948",
+    "discord_role_id": "",
+    "panel_sections": "dashboard,chat,players,teleports,store"
+  },
+  {
+    "name": "Administrador",
+    "level": 10,
+    "commands": "say,listplayers,teleport",
+    "emoji": "🔥",
+    "color": "#ff6b57",
+    "discord_role_id": "",
+    "panel_sections": "dashboard,chat,players,teleports,store"
+  },
+  {
+    "name": "Coordinador",
+    "level": 20,
+    "commands": "say,listplayers,teleport",
+    "emoji": "⚡",
+    "color": "#ff9f43",
+    "discord_role_id": "",
+    "panel_sections": "dashboard,chat,players,teleports"
+  },
+  {
+    "name": "Moderador",
+    "level": 30,
+    "commands": "say,listplayers",
+    "emoji": "🛡️",
+    "color": "#4dabf7",
+    "discord_role_id": "",
+    "panel_sections": "dashboard,chat,players"
+  },
+  {
+    "name": "Ayudante",
+    "level": 40,
+    "commands": "say,listplayers",
+    "emoji": "💚",
+    "color": "#51cf66",
+    "discord_role_id": "",
+    "panel_sections": "dashboard,players"
+  },
+  {
+    "name": "Staff de Eventos",
+    "level": 50,
+    "commands": "say,listplayers",
+    "emoji": "🎉",
+    "color": "#b56cff",
+    "discord_role_id": "",
+    "panel_sections": "dashboard,chat,players"
+  }
+]

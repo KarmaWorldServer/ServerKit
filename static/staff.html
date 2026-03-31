@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KarmaWorld Staff Panel</title>
+  <link rel="stylesheet" href="/staff.css">
+</head>
+<body>
+  <div class="staff-shell">
+    <header class="hero-card">
+      <div>
+        <div class="eyebrow" id="staffEyebrow">KarmaWorld Staff Panel</div>
+        <h1 id="staffTitle">Panel web de staff</h1>
+        <p id="staffSubtitle">Acceso web por Discord para staff sin entrar al ServerKit.</p>
+      </div>
+      <div class="hero-actions" id="staffAuthActions"></div>
+    </header>
+
+    <section class="grid roles-and-status">
+      <div class="card panel">
+        <div class="panel-head-inline"><h2 id="rolesTitle">Rangos</h2></div>
+        <div id="roleCards" class="role-cards"></div>
+      </div>
+      <div class="card panel">
+        <div class="panel-head-inline"><h2 id="accountTitle">Cuenta</h2></div>
+        <div id="accountBox" class="account-box"></div>
+      </div>
+    </section>
+
+    <section id="moduleGrid" class="grid modules-grid"></section>
+  </div>
+  <script src="/staff.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "_type": "karmaworld_store_v2",
+  "meta": {
+    "version": 2,
+    "updated_at": "2026-03-31 15:52:10"
+  },
+  "categories": [
+    "General",
+    "Armas",
+    "Munición",
+    "Herramientas",
+    "Medicina",
+    "Comida",
+    "Recursos",
+    "Construcción",
+    "Vehículos",
+    "Packs",
+    "Especiales",
+    "VIP"
+  ],
+  "coin_packs": [
+    {
+      "id": "starter_pack",
+      "name": "Starter Pack",
+      "description": "Example pack. Edit or remove it.",
+      "coins": 500,
+      "bonus_coins": 0,
+      "price_real": 4.99,
+      "currency": "EUR",
+      "image": "",
+      "active": false,
+      "featured": false
+    }
+  ],
+  "items": [],
+  "wallets": [],
+  "transactions": [],
+  "payments": [],
+  "orders": [],
+  "playtime": {
+    "enabled": false,
+    "coins_per_interval": 5,
+    "interval_minutes": 30,
+    "daily_limit": 100,
+    "anti_afk_minutes": 10,
+    "event_multiplier": 1
+  },
+  "discord": {
+    "enabled": false,
+    "guild_id": "",
+    "channel_id": "",
+    "bot_token": "",
+    "dm_enabled": true,
+    "public_template": "{player} purchased {pack} for {amount} €",
+    "dm_template": "Payment confirmed: +{coins} coins"
+  },
+  "web": {
+    "public_base_url": "",
+    "public_ip": "",
+    "public_port": 8090,
+    "domain": "",
+    "steam_enabled": true,
+    "discord_link_enabled": false,
+    "stripe_enabled": false,
+    "stripe_mode": "test",
+    "stripe_currency": "EUR",
+    "stripe_public_key": "",
+    "stripe_secret_key": "",
+    "stripe_webhook_secret": "",
+    "success_url": "",
+    "cancel_url": "",
+    "discord_client_id": "",
+    "discord_client_secret": "",
+    "discord_redirect_uri": "",
+    "staff_panel_enabled": true,
+    "login_notice": "Configure this section before publishing the store."
+  },
+  "delivery": {
+    "queue_mode": true,
+    "requires_online_player": true,
+    "warn_limits_before_buy": true
+  },
+  "notes": []
+}

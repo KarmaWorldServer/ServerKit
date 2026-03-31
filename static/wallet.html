@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>KarmaWorld Wallet</title>
+  <link rel="icon" href="/assets/logo-title.png">
+  <link rel="stylesheet" href="/wallet.css">
+</head>
+<body>
+  <div class="wallet-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">KarmaWorld Wallet</p>
+        <h1 id="walletTitle">Karmacoins + tienda web</h1>
+        <p id="heroNotice">Cargando configuración...</p>
+        <div class="hero-actions">
+          <button id="walletSteamBtn" class="cta" disabled>Login con Steam (preparado)</button>
+          <button id="walletDiscordBtn" class="cta secondary" disabled>Vincular Discord (preparado)</button>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="row"><span id="walletAccessLabel">Acceso</span><strong id="walletAccess">IP:puerto</strong></div>
+        <div class="row"><span>Stripe</span><strong id="walletStripe">Pendiente</strong></div>
+        <div class="row"><span id="walletPlaytimeLabel">Tiempo conectado</span><strong id="walletPlaytime">-</strong></div>
+      </div>
+    </header>
+
+    <main class="content-grid">
+      <section class="panel">
+        <div class="panel-head">
+          <h2 id="walletPacksTitle">Packs de Karmacoins</h2>
+          <span id="walletPacksNote" class="note">Compra saldo y luego gástalo en la tienda</span>
+        </div>
+        <div id="packsGrid" class="cards"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2 id="walletItemsTitle">Objetos disponibles</h2>
+          <span id="walletItemsNote" class="note">Vista pública inicial</span>
+        </div>
+        <div id="itemsGrid" class="cards cards-small"></div>
+      </section>
+    </main>
+  </div>
+  <script src="/wallet.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ServerSettings>
+    <property name="ServerName" value="KarmaWorld" />
+    <property name="ServerDescription" value="Servidor de ejemplo limpio para configurar." />
+    <property name="ServerPassword" value="" />
+    <property name="ServerPort" value="26900" />
+    <property name="ServerVisibility" value="2" />
+</ServerSettings>
